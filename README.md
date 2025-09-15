@@ -45,17 +45,33 @@ Vialの一般的な使用方法については、[Vialのドキュメント](htt
 ### Layer毎のRGB-LED
 
 Gravity45は中央キーのみRGB LEDが搭載されています。本Vial対応ファームウェアでは、Layerを切り替えたら、RGB LEDの色が変更するようになっています。Caps Wordが有効な時も色が変更されます。  
-Vial上、または、キー入力によるRGB操作は、Default LayerのRGB LEDに適用されます。輝度だけは、各LayerのRGB LEDにも反映されます。
 
 **Q.Layer切替時にLEDの色が変更されない、または、Layer切替時にLEDの色を変更したくない**  
-A.Toggle Keyを用意していますので、[Keymap]->[User]から[RGB_LAYER_TOG (LYR_TOG)]を任意のキーに割り当てて、割り当てたキーを押して ON / OFF を切り替えてください。  
+A.Toggle Keyを用意していますので、[Keymap]->[User]から[LTOG]を任意のキーに割り当てて、割り当てたキーを押して ON / OFF を切り替えてください。  
 一度切り替えたら設定を保持していますので、不要でしたらキーの割り当てを外してください。
 
-**Q.Default Layerに戻った時、あるいは、Caps Wordを抜けた時に、色が戻らない**  
-A.一度キーボードのUSBケーブルを抜いて、再接続したら戻る場合があります。再接続でも元に戻らない場合は、色を再設定してください。
-
 **Q.各Layerの色を自分で変更したい**  
-A.Vialでは変更する手段はありません。ファームウェアをビルドする環境を自前で準備して、ソースコードをfolkして色を変更してください。
+A.[Keymap]->[User]に、Vial上で変更したLEDを設定するKey [LSAVE] を用意しています。色を変更したいLayerにした状態で、Vial上でLEDを設定してから [LSAVE] を押してください。  
+また、Hue, Sat, Val (Brightness) の Up/Down Keyも用意しています。色を変更したいLayerに各キーを割り当てて押してください。  
+尚、標準のBacklight Tabの[Hue+]などは、どのLayerに割り当ててもLayer 0の色だけに適用されます。
+
+**Q.各Layerの輝度が変わらない**  
+A.Defaultでは、Layer 0と同じ輝度が適用されるようにしています。  
+Toggle Keyを用意していますので、[Keymap]->[User]から[LSMVAL (Layer Same Value)]を任意のキーに割り当てて、割り当てたキーを押して ON / OFF を切り替えてください。  
+一度切り替えたら設定を保持していますので、不要でしたらキーの割り当てを外してください。
+
+### OS毎のDefault Layer設定
+
+OS毎にDefault Layerを設定できるようにしています。     
+1. [Keymap]->[User]の[OSDF (OS Default Layer)]をDefault LayerにしたいLayerの任意のキーに割り当ててください。
+2. OSにGravity45を接続してください。
+3. 1で設定した[OSDF]キーを押してください。
+4. Gravity45を再接続して、Default Layerが設定されたことを確認してください。
+
+尚、QMKが対応しているWin, Mac, iOS, Linux, その他(Android含む)の分類を実装していますが、動作確認したのはMac, iOSのみです。
+
+**Q.上記設定をリセットしたい**  
+A.Reset Keyを用意していますので、[Keymap]->[User]から[MY_RST] を任意のキーに割り当てて、割り当てたキーを押してください。
 
 ## Source Code
 
