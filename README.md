@@ -1,6 +1,6 @@
 # Gravity45 Vial Firmware
 
-![Photo of Gravity45](/images/top_gravity45.jpeg)
+<p align="center"><img src="/images/top_gravity45.jpeg" width="80%" /></p>
 
 ## About
 
@@ -27,11 +27,11 @@
 
 VialではBootloaderキーはQuantum Tabにあります。  
 VialでBootloaderキーを設定しようとすると、Unlock Modeにするために2個のキーの長押しを指示する画面が出ますので、指示に従い2キーを長押ししてください。
-<p align="center"><img src="/images/inst_vail_bootloader.jpeg" width="50%" /></p>
+<p align="center"><img src="/images/inst_vial_bootloader.jpeg" width="50%" /></p>
 
 > [!TIP]
 > Vialでは、[Security]→[Reboot to bootloader]メニューからBootloaderモードにすることもできます。
-> <p align="center"><img src="/images/inst_vail_bootloader_menu.jpeg" width="50%" /></p>
+> <p align="center"><img src="/images/inst_vial_bootloader_menu.png" width="40%" /></p>
 
 Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gravity45-faq/#index_id29) を参照してください。
 
@@ -57,7 +57,7 @@ Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gra
     <p align="center">
       <img src="/images/reuseA_remap_savemenu.jpeg" width="20%" />
       <img src="/images/reuseA_remap_load.jpeg" width="30%" />
-      <img src="/images/reuseA_remap_flash.jpeg" width="30%" />
+      <img src="/images/reuseA_remap_flash.png" width="30%" />
     </p>   
 
 ### B. Vialファームウェアを再インストール または 更新版をインストールした後でもkeymapを引き継ぎたい場合
@@ -67,7 +67,7 @@ Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gra
 2. Vialファームウェアをinstallしてください。
 3. Vial画面上で[File]→[Load saved layout]メニューをクリックして、1で保存したファイルを選択してください。
 
-## Usage of Vial
+## Vial の使い方
 
 [Vial](https://get.vial.today/)から、[Start Vial Web]をクリックしてWeb版を使用するか、[Download Vial]をクリックしてアプリ版を使用してください。  
 Vialの一般的な使用方法については、[Vialのドキュメント](https://get.vial.today/manual/) やWebを検索してください。
