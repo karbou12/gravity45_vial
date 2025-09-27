@@ -19,7 +19,7 @@
 [Greenkeysのビルドガイド](https://green-keys.info/lp/gravity45-build-guide/#vial) を参考に、ダウンロードしたファームウェアをインストールしてください。
 
 あるいは、RemapでBootloaderを任意のキーに割り当てて、Bootloaderキーを押してBootloaderモードにしてから、ファームウェアをインストールしてください。
-<p align="center"><img src="/images/inst_remap_bootloader.png" width="50%" /></p>
+<p align="center"><img src="/images/inst_remap_bootloader.png" width="80%" /></p>
 
 > [!TIP]
 > RESET / REBOOTボタンを押すにはケースを外す必要があるので、Bootloaderキーを割り当てるのをお勧めします。
@@ -27,11 +27,11 @@
 
 VialではBootloaderキーはQuantum Tabにあります。  
 VialでBootloaderキーを設定しようとすると、Unlock Modeにするために2個のキーの長押しを指示する画面が出ますので、指示に従い2キーを長押ししてください。
-<p align="center"><img src="/images/inst_vial_bootloader.jpeg" width="50%" /></p>
+<p align="center"><img src="/images/inst_vial_bootloader.jpeg" width="80%" /></p>
 
 > [!TIP]
 > Vialでは、[Security]→[Reboot to bootloader]メニューからBootloaderモードにすることもできます。
-> <p align="center"><img src="/images/inst_vial_bootloader_menu.png" width="40%" /></p>
+> <p align="center"><img src="/images/inst_vial_bootloader_menu.png" width="60%" /></p>
 
 Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gravity45-faq/#index_id29) を参照してください。
 
@@ -43,19 +43,26 @@ Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gra
 ### A. Remapで設定したkeymapをVialでも引き継ぎたい場合
 
 1. Remapでkeymapを保存してください。Google または Githubアカウントでのloginが必要です。  
-   - keymapを保存するには、画面右の[キーマップの保存・復元]メニューをクリックして、[現在のキーマップを保存]をクリックして、任意の名前を入力して[保存]をクリックしてください。
+    keymapを保存するには、画面右の[キーマップの保存・復元]メニューをクリックして、
     <p align="center">
-      <img src="/images/reuseA_remap_savemenu.jpeg" width="20%" />
+      <img src="/images/reuseA_remap_savemenu.jpeg" width="30%" />
+    </p>
+    [現在のキーマップを保存]をクリックして、
+    <p align="center">
       <img src="/images/reuseA_remap_load.jpeg" width="30%" />
+    </p>
+    任意の名前を入力して[保存]をクリックしてください。
+    <p align="center">
       <img src="/images/reuseA_remap_save.jpeg" width="30%" />
     </p>
+
 2. Vialファームウェアをインストールしてください。
 3. Remapを開いてください。[Remap for QMK 0.18] を使うようメッセージが出るので、画面下の同リンクをクリックして、[START REMAP FOR YOUR KEYBOARD] をクリックしてください。
    <p align="center"><img src="/images/reuseA_remap_oldver.jpeg" width="80%" /></p>
    <p align="center"><img src="/images/reuseA_remap_start.jpeg" width="80%" /></p>
 4. 画面右の[キーマップの保存・復元]メニューから、1で保存したkeymapをクリックしてkeymapを読み込んで、[flash]をクリックしてください。
     <p align="center">
-      <img src="/images/reuseA_remap_savemenu.jpeg" width="20%" />
+      <img src="/images/reuseA_remap_savemenu.jpeg" width="30%" />
       <img src="/images/reuseA_remap_load.jpeg" width="30%" />
       <img src="/images/reuseA_remap_flash.png" width="30%" />
     </p>   
@@ -63,7 +70,7 @@ Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gra
 ### B. Vialファームウェアを再インストール または 更新版をインストールした後でもkeymapを引き継ぎたい場合
 
 1. Vial画面上で[File]→[Save current layout]メニューをクリックしてファイル保存してください。
-   <p align="center"><img src="/images/reuseB_vial_savemenu.jpeg" width="30%" /></p>
+   <p align="center"><img src="/images/reuseB_vial_savemenu.jpeg" /></p>
 2. Vialファームウェアをinstallしてください。
 3. Vial画面上で[File]→[Load saved layout]メニューをクリックして、1で保存したファイルを選択してください。
 
