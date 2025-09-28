@@ -1,6 +1,6 @@
 # Gravity45 Vial Firmware
 
-<p align="center"><img src="/images/top_gravity45.jpeg" width="80%" /></p>
+<p align="center"><img src="/images/top_gravity45.jpeg" width="90%" /></p>
 
 ## About
 
@@ -12,26 +12,26 @@
 
 [Releases](https://github.com/karbou12/gravity45_vial/releases) ページから、最新VersionのAssetsをクリックして表示される green_keys_gravity_45_vial.uf2 をダウンロードしてください。
 
-<p align="center"><img src="/images/dl_releases.jpeg" width="80%" /></p>
+<p align="center"><img src="/images/dl_releases.png" /></p>
 
 ## Install
 
 [Greenkeysのビルドガイド](https://green-keys.info/lp/gravity45-build-guide/#vial) を参考に、ダウンロードしたファームウェアをインストールしてください。
 
 あるいは、RemapでBootloaderを任意のキーに割り当てて、Bootloaderキーを押してBootloaderモードにしてから、ファームウェアをインストールしてください。
-<p align="center"><img src="/images/inst_remap_bootloader.png" width="80%" /></p>
+<p align="center"><img src="/images/inst_remap_bootloader.png" /></p>
 
 > [!TIP]
 > RESET / REBOOTボタンを押すにはケースを外す必要があるので、Bootloaderキーを割り当てるのをお勧めします。
 > その場合、Bootloaderキーは常設せず、ファームウェアをインストールする時だけ設定するのをお勧めします。
 
-VialではBootloaderキーはQuantum Tabにあります。  
-VialでBootloaderキーを設定しようとすると、Unlock Modeにするために2個のキーの長押しを指示する画面が出ますので、指示に従い2キーを長押ししてください。
-<p align="center"><img src="/images/inst_vial_bootloader.jpeg" width="80%" /></p>
+VialではBootloaderキーはQuantum Tabにあります。
 
 > [!TIP]
+> VialでBootloaderキーを設定しようとすると、Unlock Modeにするために2個のキーの長押しを指示する画面が出ますので、指示に従い2キーを長押ししてください。
+> <p align="center"><img src="/images/inst_vial_bootloader.png" /></p>
 > Vialでは、[Security]→[Reboot to bootloader]メニューからBootloaderモードにすることもできます。
-> <p align="center"><img src="/images/inst_vial_bootloader_menu.png" width="60%" /></p>
+> <p align="center"><img src="/images/inst_vial_bootloader_menu.png" /></p>
 
 Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gravity45-faq/#index_id29) を参照してください。
 
@@ -45,34 +45,34 @@ Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gra
 1. Remapでkeymapを保存してください。Google または Githubアカウントでのloginが必要です。  
     keymapを保存するには、画面右の[キーマップの保存・復元]メニューをクリックして、
     <p align="center">
-      <img src="/images/reuseA_remap_savemenu.jpeg" width="30%" />
+      <img src="/images/reuseA_remap_save_menu.png" />
     </p>
     [現在のキーマップを保存]をクリックして、
     <p align="center">
-      <img src="/images/reuseA_remap_load.jpeg" width="30%" />
+      <img src="/images/reuseA_remap_save_keymap.png" />
     </p>
     任意の名前を入力して[保存]をクリックしてください。
     <p align="center">
-      <img src="/images/reuseA_remap_save.jpeg" width="30%" />
+      <img src="/images/reuseA_remap_save_button.png" />
     </p>
-
 2. Vialファームウェアをインストールしてください。
 3. Remapを開いてください。[Remap for QMK 0.18] を使うようメッセージが出るので、画面下の同リンクをクリックして、[START REMAP FOR YOUR KEYBOARD] をクリックしてください。
-   <p align="center"><img src="/images/reuseA_remap_oldver.jpeg" width="80%" /></p>
-   <p align="center"><img src="/images/reuseA_remap_start.jpeg" width="80%" /></p>
-4. 画面右の[キーマップの保存・復元]メニューから、1で保存したkeymapをクリックしてkeymapを読み込んで、[flash]をクリックしてください。
+   <p align="center"><img src="/images/reuseA_remap_old_ver.png" /></p>
+   <p align="center"><img src="/images/reuseA_remap_start.png" /></p>
+4. 画面右の[Save/Restore a keymap]メニューから、1で保存したkeymapをクリックしてkeymapを読み込んで、[flash]をクリックしてください。
     <p align="center">
-      <img src="/images/reuseA_remap_savemenu.jpeg" width="30%" />
-      <img src="/images/reuseA_remap_load.jpeg" width="30%" />
-      <img src="/images/reuseA_remap_flash.png" width="30%" />
+      <img src="/images/reuseA_remap_load_menu.png" />
+      <img src="/images/reuseA_remap_load_keymap.png" />
+      <img src="/images/reuseA_remap_load_flash.png" />
     </p>   
 
 ### B. Vialファームウェアを再インストール または 更新版をインストールした後でもkeymapを引き継ぎたい場合
 
 1. Vial画面上で[File]→[Save current layout]メニューをクリックしてファイル保存してください。
-   <p align="center"><img src="/images/reuseB_vial_savemenu.jpeg" /></p>
+   <p align="center"><img src="/images/reuseB_vial_save.png" /></p>
 2. Vialファームウェアをinstallしてください。
 3. Vial画面上で[File]→[Load saved layout]メニューをクリックして、1で保存したファイルを選択してください。
+   <p align="center"><img src="/images/reuseB_vial_load.png" /></p>
 
 ## Vial の使い方
 
