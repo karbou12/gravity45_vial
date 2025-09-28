@@ -26,11 +26,11 @@
 > その場合、Bootloaderキーは常設せず、ファームウェアをインストールする時だけ設定するのをお勧めします。
 
 VialではBootloaderキーはQuantum Tabにあります。
+<p align="center"><img src="/images/inst_vial_bootloader.png" /></p>
 
 > [!TIP]
-> VialでBootloaderキーを設定しようとすると、Unlock Modeにするために2個のキーの長押しを指示する画面が出ますので、指示に従い2キーを長押ししてください。
-> <p align="center"><img src="/images/inst_vial_bootloader.png" /></p>
-> Vialでは、[Security]→[Reboot to bootloader]メニューからBootloaderモードにすることもできます。
+> - VialでBootloaderキーを設定しようとすると、Unlock Modeにするために2個のキーの長押しを指示する画面が出ますので、指示に従い2キーを長押ししてください。
+> - Vialでは、[Security]→[Reboot to bootloader]メニューからBootloaderモードにすることもできます。
 > <p align="center"><img src="/images/inst_vial_bootloader_menu.png" /></p>
 
 Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gravity45-faq/#index_id29) を参照してください。
