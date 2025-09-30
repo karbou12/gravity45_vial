@@ -59,17 +59,17 @@ Vialの一般的な使用方法については、[Vialのドキュメント](htt
 - OS毎のDefault Layer設定
   - OS毎にDefault Layerを設定できるようにしています。     
 
-設定の詳細は[Wiki](../../wiki/User-Custom-Seetings)を参照してください。
+設定の詳細は[Wiki](../../wiki/5.User-Custom-Settings)を参照してください。
 
 ## Troubleshooting
 
-[Wiki](../../wiki/Troubleshooting)を参照してください。
+[Wiki](../../wiki/6.Troubleshooting)を参照してください。
 
 ## Source Code
 
 [本Vial Firmware用のソースコード](https://github.com/karbou12/vial-qmk/tree/keyboard/gravity45/keyboards/green_keys/gravity_45/keymaps/vial)は、
 Gravity45設計者のtakashicompany さんの [VIA用コード](https://github.com/takashicompany/qmk_firmware/tree/master/keyboards/green_keys/gravity_45)を元に作成しています。  
-詳細は[Wiki](../../wiki/Source-Code)を参照してください。
+詳細は[Wiki](../../wiki/7.Source-Code)を参照してください。
 
 ##
 
