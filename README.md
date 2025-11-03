@@ -50,7 +50,7 @@ Remap版に戻したい場合は、[GreenkeysのFAQ](https://green-keys.info/gra
 ## Vial の使い方
 
 [Vial](https://get.vial.today/)から、[Start Vial Web]をクリックしてWeb版を使用するか、[Download Vial]をクリックしてアプリ版を使用してください。  
-Vialの一般的な使用方法については、[Vialのドキュメント](https://get.vial.today/manual/) やWebを検索してください。
+Vialの一般的な使用方法やQMKの設定については、[Vialのドキュメント](https://get.vial.today/manual/) や [QMKのドキュメント](https://docs.qmk.fm/)、Webを検索してください。
 
 ## 本ファームウェア独自の設定について
 
